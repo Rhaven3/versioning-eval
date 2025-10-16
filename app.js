@@ -1,6 +1,6 @@
 function renderBooks() {
   const tbody = document.getElementById('book-list');
-  tbody.innerHTML = '';
+  tbody.innerHTML = 'YOLO WAZA';
 
   books.forEach((book, index) => {
     const tr = document.createElement('tr');
