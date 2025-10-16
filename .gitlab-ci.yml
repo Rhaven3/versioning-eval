@@ -1,0 +1,9 @@
+eval-build:
+  stage: build
+  script:
+    - echo "Mon nom d'utilisateur gitlab: $GITLAB_USER_LOGIN"
+
+eval-test:
+  stage: test
+  script:
+    - echo "on est dans la branche: $CI_COMMIT_BRANCH"
